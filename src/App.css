@@ -6,13 +6,6 @@ body {
   box-sizing: border-box;
 }
 
-.header img {
-  max-width: 60px;
-}
-.content img {
-  max-width: 100%;
-}
-
 .app-wrapper {
   display: grid;
   grid-template-areas:
@@ -21,17 +14,4 @@ body {
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   gap: 20px;
-}
-
-.header {
-  background-color: aqua;
-  grid-area: header;
-}
-.nav {
-  background-color: rgb(78, 149, 115);
-  grid-area: nav;
-}
-.content {
-  background-color: rgb(98, 59, 107);
-  grid-area: cont;
 }

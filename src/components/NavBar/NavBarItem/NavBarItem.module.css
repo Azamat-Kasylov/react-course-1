@@ -1,0 +1,11 @@
+.item {
+  color: white;
+}
+
+.item:hover {
+  color: brown;
+}
+
+.item.active {
+  color: goldenrod;
+}

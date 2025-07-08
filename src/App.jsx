@@ -1,7 +1,7 @@
 import "./App.css";
-import ProfileSection from "./components/ProfileSection";
-import HeaderSection from "./components/HeaderSection";
-import NavBarSection from "./components/NavBarSection";
+import ProfileSection from "./components/Profile/ProfileSection";
+import HeaderSection from "./components/Header/HeaderSection";
+import NavBarSection from "./components/NavBar/NavBarSection";
 
 const App = () => {
   return (
