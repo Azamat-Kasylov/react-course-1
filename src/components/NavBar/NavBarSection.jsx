@@ -1,13 +1,26 @@
 import classes from "./NavBarSection.module.css";
 import NavBarItem from "./NavBarItem/NavBarItem";
+// import { useState } from "react";
 
 const NavBarSection = () => {
+  // const [active, setActive] = useState();
+  const data = [
+    { title: "Profile", link: "/profile" },
+    { title: "Message", link: "/message" },
+    { title: "Music", link: "/music" },
+    { title: "Feedback", link: "/feedback" },
+    { title: "Settings", link: "/settings" },
+  ];
   return (
     <nav className={classes.nav}>
-      <NavBarItem title={"Profile"} link={"#profile"} />
-      <NavBarItem title={"Message"} link={"#message"} />
-      <NavBarItem title={"Music"} link={"#music"} />
-      <NavBarItem title={"Settings"} link={"#settings"} />
+      {data.map((i) => (
+        <NavBarItem
+          // isActive={active === i.title}
+          // onClick={() => setActive(i.title)}
+          title={i.title}
+          link={i.link}
+        />
+      ))}
     </nav>
   );
 };

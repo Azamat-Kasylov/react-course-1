@@ -4,8 +4,8 @@ import MyPosts from "./MyPosts/MyPosts";
 
 const ProfileSection = () => {
   return (
-    <div className={classes.content}>
-      <div>
+    <div>
+      <div className={classes.img_wrapper}>
         <img src="https://neurotechx.github.io/studentclubs/images/unsplash_brooklyn-bridge_header.jpg" />
       </div>
       <div>

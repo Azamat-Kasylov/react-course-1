@@ -13,5 +13,11 @@ body {
     "nav cont";
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-  gap: 20px;
+  gap: 15px;
+}
+
+.app-wrapper-content {
+  padding: 20px;
+  background-color: rgb(203, 224, 233);
+  grid-area: cont;
 }

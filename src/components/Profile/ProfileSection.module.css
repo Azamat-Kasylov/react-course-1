@@ -1,13 +1,13 @@
-.content img {
-  max-width: 100%;
-}
-
 .profile_img {
   width: 130px;
 }
 
-.content {
-  padding: 20px;
-  background-color: rgb(98, 59, 107);
-  grid-area: cont;
+.img_wrapper {
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.img_wrapper img {
+  max-width: 100%;
 }

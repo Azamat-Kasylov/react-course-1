@@ -3,6 +3,6 @@
 }
 
 .header {
-  background-color: aqua;
+  background-color: rgb(0, 41, 69);
   grid-area: header;
 }

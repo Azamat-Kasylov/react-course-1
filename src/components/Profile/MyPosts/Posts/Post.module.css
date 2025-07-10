@@ -1,9 +1,12 @@
 .item {
   padding-left: 20px;
   color: greenyellow;
-  margin-bottom: 20px;
 }
 
 .item img {
   width: 30px;
+}
+
+.likes {
+  margin-bottom: 20px;
 }
