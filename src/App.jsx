@@ -5,7 +5,7 @@ import NavBarSection from "./components/NavBar/NavBarSection";
 import DialogsSection from "./components/Dialogs/DialogsSection";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const App = () => {
+const App = (props) => {
   return (
     <BrowserRouter>
       <div className="app-wrapper">
@@ -13,8 +13,19 @@ const App = () => {
         <NavBarSection />
         <div className="app-wrapper-content">
           <Routes>
-            <Route path="/profile" element={<ProfileSection />} />
-            <Route path="/message" element={<DialogsSection />} />
+            <Route
+              path="/profile"
+              element={<ProfileSection postsData={props.postsData} />}
+            />
+            <Route
+              path="/message"
+              element={() => (
+                <DialogsSection
+                  dialogsData={props.dialogsData}
+                  messagesData={props.messagesData}
+                />
+              )}
+            />
           </Routes>
         </div>
       </div>

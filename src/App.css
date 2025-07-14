@@ -12,7 +12,7 @@ body {
     "header header"
     "nav cont";
   grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: 1fr 6fr;
   gap: 15px;
 }
 

@@ -1,0 +1,20 @@
+.chat.active {
+  font-size: 18px;
+  color: rgb(62, 104, 90);
+  border-bottom: 1px solid rgba(62, 104, 90, 0.33);
+}
+
+.chat:hover {
+  cursor: pointer;
+  color: rgb(62, 104, 90);
+}
+
+.chat {
+  display: block;
+  color: black;
+}
+
+.wrapper {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}

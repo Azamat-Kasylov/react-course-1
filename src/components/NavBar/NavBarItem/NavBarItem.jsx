@@ -3,7 +3,7 @@ import classes from "./NavBarItem.module.css";
 
 const NavBarItem = ({ link, title, onClick, ...props }) => {
   return (
-    <div>
+    <div className={classes.wrapper}>
       <NavLink
         // className={
         //   isActive ? `${classes.item} ${classes.active}` : classes.item
@@ -11,7 +11,6 @@ const NavBarItem = ({ link, title, onClick, ...props }) => {
         className={({ isActive }) =>
           isActive ? `${classes.item} ${classes.active}` : classes.item
         }
-        // activeClassName={classes.active}
         to={link}
         // onClick={onClick}
       >

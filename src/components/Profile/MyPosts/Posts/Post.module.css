@@ -1,12 +1,46 @@
 .item {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
   padding-left: 20px;
-  color: greenyellow;
+  padding-bottom: 10px;
+  color: #000;
+  gap: 30px;
+  border-bottom: 0.5px solid rgb(0, 41, 69);
+  border-radius: 10px;
 }
 
 .item img {
-  width: 30px;
+  width: 40px;
+  height: 40px;
+}
+.item img:hover {
+  cursor: pointer;
 }
 
 .likes {
+  font-size: 12px;
+  padding-left: 22px;
+}
+.likes:hover {
+  cursor: pointer;
+}
+
+.wrapper {
   margin-bottom: 20px;
 }
+
+.name {
+  display: block;
+  color: #000;
+}
+
+.message {
+  font-weight: 200;
+  margin: 0;
+  margin-top: 5px;
+}
+
+/* .inner_wrapper {
+  display: flex;
+} */
